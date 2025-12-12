@@ -1,7 +1,7 @@
 body {
     text-align: center;
     margin: 0;
-    color: #333;
+
     font-family: Georgia, serif;
 }
 main {
@@ -9,20 +9,36 @@ main {
     text-align: left;
     margin: auto;
 }
+.logo {
+    width: 195px;
+    margin-top: 15px;
+}
 h1 {
-    font-size: 25px;
     text-align: center;
-    margin: 50px;
+    margin-top: 55px;
 }
 h2 {
     font-size: 17px;
     font-weight: lighter;
     margin-bottom: 20px;
 }
-.main {
+
+img.main {
     border-radius: 10px;
     width: 100%;
+    aspect-ratio: 2/1.25;
 }
+
+.img-text {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    opacity: 0.5;
+}
+
 hr {
     border: none;
     height: 1px;
@@ -31,30 +47,54 @@ hr {
     margin-bottom: 20px;
 }
 h3 {
-    margin-top: 40px;
-    font-weight: bold;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: normal;
 }
-h5 {
-    background-color: #fefbf1;
-    padding: 1rem 0;
-    border-top: 1px solid #ffd977;
-}
+
 h4 {
-    font-size: 20px;
+    font-size: 16px;
     text-align: left;
     color: #b5460f;
     margin-bottom: 0;
     margin-top: 40px;
+    font-weight: normal;
 }
 a {
     color: #177;
 }
 span {
-    display: block;
-    margin: 0 auto;
-    width: fit-content;
+    font-weight: bold;
+    text-align: center;
+    color: #004d4d;
+    font-size: 0.8rem;
 }
+nav {
+    text-align: center;
+    align-items: center;
+}
+nav p {
+    font-size: 15px;
+    margin-top: 20px;
+    background-color: #fefbf1;
+    border-top: 1px solid #ffd977;
+    padding: 15px;
+}
+
 article {
     border-left: 1px solid #ffd977;
-    padding-left: 10px;
+    padding-left: 15px;
+}
+div p {
+    font-weight: bold;
+    font-size: 20px;
+}
+#ricetta {
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+li {
+    padding: 8px;
 }
